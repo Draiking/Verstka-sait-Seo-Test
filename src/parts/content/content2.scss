@@ -1,0 +1,94 @@
+.home-sect-2 {
+
+  .sect-top {
+    p {
+      font-family: 'RobotoMedium',sans-serif;
+      font-size: 18px;
+      text-align: center;
+    }
+  }
+
+  .slide {
+    height: 247px;
+    .border {
+      position: absolute;
+      border: 1px solid $white;
+      width: 95%;
+      height: 89%;
+      left: 11px;
+      top: 13px;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      padding: 0 37px 47px 37px;
+      p{
+        margin: 0;
+        color: $white;
+        font-family: 'RobotoLight',sans-serif;
+        font-size: 20px;
+        text-align: center;
+      }
+    }
+  }
+
+  .details {
+    display: none;
+    position: relative;
+    bottom: 138px;
+    background: $details-window;
+    color: $white;
+    padding: 31px 30px 31px 28px;
+    h5{
+      font-family: 'RobotoLight',sans-serif;
+      font-size: 22px;
+      text-align: center;
+      padding-bottom: 25px;
+    }
+    p {
+      font-family: 'RobotoLight',sans-serif;
+      font-size: 16px;
+    }
+  }
+
+  .button-details {
+    text-align: center;
+    a{
+      background: $white;
+      font-family: 'RobotoLight',sans-serif;
+      font-size: 20px;
+      padding: 13px 15px;
+      border-radius: 0;
+    }
+  }
+
+  .advantages {
+    padding-bottom: 50px;
+    h1 {
+      font-family: 'RobotoBold',sans-serif;
+      font-size: 30px;
+      padding-right: 37%;
+      color: $black-100;
+      padding-bottom: 30px;
+      margin: 0;
+    }
+    ul{
+      list-style-type: none;
+      li:nth-child(odd) {
+        list-style-image: url('../../img/content2/point-1.png');
+      }
+      li:nth-child(even) {
+        list-style-image: url('../../img/content2/point-2.png');
+      }
+      h5{
+        font-family: 'RobotoBold',sans-serif;
+        font-size: 16px;
+        text-transform: uppercase;
+        margin: 0;
+      }
+      p{
+        font-family: 'Roboto',sans-serif;
+        font-size: 14px;
+      }
+    }
+  }
+}

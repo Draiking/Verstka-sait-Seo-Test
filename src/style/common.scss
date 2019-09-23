@@ -3,3 +3,8 @@
 .active-input {
   background: $white!important;
 }
+.active-window {
+  display: block!important;
+  transition: all .3s ease;
+  z-index: 1000;
+}

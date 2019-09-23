@@ -8,11 +8,18 @@ $(document).ready(function() {
         $(this).removeClass('active-input')
     });
 
-    $('.input-phone').focus(function () {
-        $(this).addClass('active-input')
+
+
+    $('.open-windows').mouseover(function (event) {
+        var id = event.target.id;
+        if(id) {
+            var targerID = id.replace(/text-/, '');
+            $('#'+ targerID).addClass('active-window')
+        }
     });
-    $('.input-phone').blur(function () {
-        $(this).removeClass('active-input')
-    });
+
+   $('.details').mouseleave(function () {
+       $(this).removeClass('active-window')
+   })
 
 });
