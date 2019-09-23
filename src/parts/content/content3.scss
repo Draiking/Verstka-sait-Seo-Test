@@ -1,0 +1,39 @@
+.home-sect-3{
+  background: $sect-3;
+
+  .top-sect {
+    text-transform: uppercase;
+    font-family: 'Roboto',sans-serif;
+    font-size: 30px;
+    padding-top: 37px;
+    padding-bottom: 30px;
+    text-align: center;
+    h1{
+      color: $white;
+      margin: 0;
+    }
+  }
+
+  .button-send {
+    text-align: center;
+    background-size: auto;
+    .btn {
+      padding: 15px 25px;
+      border-radius: 0;
+      background: $btn-color;
+      color: $white;
+    }
+  }
+
+  .bottom-sect-3{
+    padding-top: 24px;
+    padding-bottom: 36px;
+    text-align: center;
+    p{
+      font-family: 'Roboto', sans-serif;
+      font-size: 16px;
+      color: $white;
+      margin: 0;
+    }
+  }
+}
