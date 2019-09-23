@@ -1,5 +1,7 @@
 .main-header {
-  min-height: 595px;
+  position: absolute;
+  width: 100%;
+  z-index: 1000;
 
   .head-col-1 {
     display: flex;
@@ -36,6 +38,8 @@
       line-height: 46px;
       color: $white;
       transition: all .3s ease;
+      font-family: 'RobotoMedium', sans-serif;
+      font-size: 15px;
       &:hover{
         background: $head-menu-bg;
         transition: all .3s ease;

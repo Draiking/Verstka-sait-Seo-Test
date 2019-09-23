@@ -1,0 +1,110 @@
+.home-sect-1{
+  min-height: 596px;
+
+  .path-website {
+    .text-gray {
+      font-family: 'RobotoRegular', sans-serif;
+      font-size: 15px;
+      color: $gray;
+      padding-left: 5px;
+      transition: all .3s ease;
+      &:first-child{
+        padding-left: 0;
+      }
+      &.active{
+        color: $white;
+      }
+      &:hover{
+        transition: all .3s ease;
+        color: $accent-yellow;
+        span {
+          color: $gray;
+        }
+      }
+    }
+  }
+
+  .sect-1-center-content {
+    padding: 140px 40px 40px 40px;
+    text-align: center;
+    h1{
+      font-family: 'RobotoLight', sans-serif;
+      font-size: 48px;
+      color: $white;
+    }
+  }
+
+  .sect-1-bottom-content {
+    text-align: center;
+    .text-request {
+      font-family: 'RobotoLight', sans-serif;
+      font-size: 19px;
+      color: $white;
+    }
+  }
+
+  .request-input {
+    align-items: center;
+    justify-content: center;
+    a {
+      text-transform: uppercase;
+      border-radius: 0;
+      margin-left: 10px;
+      padding: 11px 23px;
+      height: 46px;
+      background: $btn-color;
+      color: $white;
+      font-family: 'RobotoLight', sans-serif;
+      font-size: 20px;
+    }
+  }
+
+  .name-input {
+    input {
+      padding: 10px 5px 10px 47px;
+      background: transparent;
+      border: 1px solid gray;
+    }
+    .fas {
+      position: relative;
+      top: 50%;
+      left: 35px;
+    }
+  }
+
+  .phone-input {
+    input {
+      padding: 10px 5px 10px 47px;
+      background: transparent;
+      border: 1px solid gray;
+    }
+    .fas {
+      position: relative;
+      top: 50%;
+      left: 35px;
+      transform: rotate(90deg);
+    }
+  }
+
+  .advertising-website {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  .advertising-text{
+    background: $btn-color;
+    padding: 17px 73px;
+    width: 410px;
+    color: $white;
+    h1 {
+      font-family: 'RobotoBold', sans-serif;
+      font-size: 51px;
+      margin: 0;
+    }
+    p{
+      font-family: 'Roboto',sans-serif;
+      font-size: 15px;
+      margin: 0;
+    }
+  }
+}
