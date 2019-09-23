@@ -1,0 +1,82 @@
+.home-sect-4 {
+  .our-work {
+    h1{
+      font-family: 'RobotoLight', sans-serif;
+      font-size: 30px;
+      margin: 0;
+      padding-bottom: 35px;
+    }
+    .slide-work{
+      height: 200px;
+      padding-top: 40px;
+      padding-left: 36px;
+      padding-right: 38px;
+      color: $white;
+      h6 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 25px;
+      }
+      p{
+        font-family: 'RobotoLight', sans-serif;
+        font-size: 15px;
+      }
+    }
+  }
+
+  .trust-us {
+    h1{
+      font-family: 'RobotoLight', sans-serif;
+      font-size: 30px;
+      margin: 0;
+      padding-bottom: 45px;
+    }
+    .slider-work {
+      .item {
+        height: 66px;
+        background-repeat: no-repeat;
+      }
+    }
+  }
+
+  .slick-list {
+    margin: 0 83px 0 83px;
+  }
+  .slick-prev {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    .fa {
+      position: absolute;
+      top: 50%;
+      transform: translate(0, -50%);
+      left: 0;
+      font-size: 25px;
+      transition: all .3s ease;
+      &:hover {
+        color: $btn-color;
+        transition: all .3s ease;
+      }
+    }
+  }
+
+  .slick-next {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    .fa {
+      position: absolute;
+      top: 50%;
+      transform: translate(0, -50%);
+      right: 0;
+      font-size: 25px;
+      transition: all .3s ease;
+      &:hover {
+        color: $btn-color;
+        transition: all .3s ease;
+      }
+    }
+  }
+
+}
