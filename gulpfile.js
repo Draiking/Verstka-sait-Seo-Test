@@ -59,6 +59,8 @@ var destination = 'build/mock';
 gulp.task('copy', function () {
     gulp.src(sourceFiles)
         .pipe(gulp.dest(destination));
+    gulp.src('./src/libs/**/**')
+        .pipe(gulp.dest('./build/libs'));
 });
 
 gulp.task('html:build', function () {

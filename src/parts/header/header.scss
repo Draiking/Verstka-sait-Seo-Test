@@ -57,7 +57,7 @@
     float: right;
     position: relative;
     right: 0;
-    top: 0;
+    top: 2px;
     text-align: center;
     line-height: 48px;
     width: 28px;
@@ -155,6 +155,7 @@
       background: $top-line-bg;
       text-align: right;
       right: 14px;
+      width: 250px;
       a{
         display: block;
         padding-right: 15px;
