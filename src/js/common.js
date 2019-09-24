@@ -1,6 +1,11 @@
 $(document).ready(function() {
 
 
+    $(".toggle-menu").click(function () {
+        $(this).toggleClass("on");
+        $(".menu").toggleClass('d-block');
+    });
+
     $('.input-name').focus(function () {
         $(this).addClass('active-input')
     });
