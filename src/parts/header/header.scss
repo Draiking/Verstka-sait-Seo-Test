@@ -36,7 +36,7 @@
   .head-menu {
     align-items: center;
     justify-content: center;
-
+    display: flex;
     a {
       line-height: 46px;
       color: $white;
@@ -54,7 +54,7 @@
   .toggle-menu {
     background: transparent!important;
     display: none;
-    float: left;
+    float: right;
     position: relative;
     right: 0;
     top: 0;
@@ -126,7 +126,7 @@
 
 @media only screen and (max-width: 992px) {
   .main-header {
-    .menu {
+    .head-menu {
       display: none;
     }
     .logo {
@@ -149,11 +149,12 @@
     .toggle-menu {
       display: block;
     }
-    .menu {
+    .head-menu {
       position: absolute;
-      top: 35px;
+      top: 37px;
       background: $top-line-bg;
       text-align: right;
+      right: 14px;
       a{
         display: block;
         padding-right: 15px;
