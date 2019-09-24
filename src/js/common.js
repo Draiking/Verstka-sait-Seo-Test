@@ -33,7 +33,44 @@ $(document).ready(function() {
         slidesToScroll: 7,
         arrow:true,
         prevArrow:"<div class='slick-prev pull-left'><i class='fa fa-angle-left' aria-hidden='true'></i></div>",
-        nextArrow:"<div class='slick-next pull-right'><i class='fa fa-angle-right' aria-hidden='true'></i></div>"
+        nextArrow:"<div class='slick-next pull-right'><i class='fa fa-angle-right' aria-hidden='true'></i></div>",
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 6,
+                    slidesToScroll: 6,
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 4,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                }
+            },
+            {
+                breakpoint: 390,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                }
+            }
+        ]
     });
 
 });
