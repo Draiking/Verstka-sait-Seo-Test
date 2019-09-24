@@ -24,7 +24,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xl-6">
+            <div class="col-xl-5">
                 <div class="footer-support">
                     <h1>
                         Оставьте заявку или напишите вопрос и получите
@@ -32,14 +32,43 @@
                     </h1>
                 </div>
                 <div class="form-footer">
-                    <input class="name-footer" type="text" placeholder="Ваше Имя">
-                    <input class="email-footer" type="text" placeholder="email">
-                    <input class="phone-footer" type="text" placeholder="+7 (924) 254 69 85">
-                    <textarea></textarea>
+                    <div class="wrap-name"> <!--смещение позиции, без затрагивания элемента-->
+                        <div class="wrapper-name">
+                            <i class="fas fa-user-tie"></i>
+                            <input class="name-footer" type="text" required placeholder="Ваше Имя">
+                        </div>
+                    </div>
+                    <div class="wrapper-mail-phone d-flex">
+                        <div class="mail">
+                            <i class="fas fa-at"></i>
+                            <input class="email-footer" type="email" required placeholder="email">
+                        </div>
+                        <div class="phone">
+                            <i class="fas fa-phone-alt"></i>
+                            <input class="phone-footer" type="text" required placeholder="+7 (924) 254 69 85">
+                        </div>
+                    </div>
+                    <textarea rows="4" class="message-support" required placeholder="Текст сообщения"></textarea>
+                    <div class="wrap-button d-flex">
+                        <a href="#" class="btn">ОТПРАВИТЬ</a>
+                    </div>
                 </div>
             </div>
-            <div class="col-xl-3">
-
+            <div class="col-xl-4">
+                <div class="social">
+                    <img class="facebook-img" src="../../img/footer/facebook.png" alt="">
+                </div>
+                <div class="social-icon">
+                    <div class="wrapper-inst">
+                        <a href="#"><i class="fab fa-instagram"></i></i></a>
+                    </div>
+                    <div class="wrapper-face">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                    <div class="wrapper-vk">
+                        <a href="#"><i class="fab fa-vk"></i></a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

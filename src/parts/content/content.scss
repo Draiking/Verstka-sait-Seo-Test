@@ -63,7 +63,7 @@
     input {
       padding: 10px 5px 10px 47px;
       background: transparent;
-      border: 1px solid gray;
+      border: 1px solid $input-footer;
     }
     .fas {
       position: relative;
@@ -76,13 +76,12 @@
     input {
       padding: 10px 5px 10px 47px;
       background: transparent;
-      border: 1px solid gray;
+      border: 1px solid $white;
     }
     .fas {
       position: relative;
       top: 50%;
       left: 35px;
-      transform: rotate(90deg);
     }
   }
 

@@ -70,4 +70,144 @@
     }
   }
 
+  .wrap-name {
+    margin-bottom: 15px;
+  }
+
+  .wrapper-name {
+    position: relative;
+    .fas {
+      position: absolute;
+      top: 50%;
+      transform: translate(0, -50%);
+      left: 12px;
+      color: $input-footer;
+    }
+  }
+
+  .name-footer {
+    padding: 10px 5px 10px 37px;
+    width: 100%;
+    background: transparent;
+    border: 1px solid $input-footer;
+    color: $input-footer;
+    font-family: 'RobotoLight', sans-serif;
+  }
+
+  .wrapper-mail-phone {
+    margin-bottom: 15px;
+  }
+
+  .mail{
+    position: relative;
+    .fas {
+      position: absolute;
+      top: 50%;
+      transform: translate(0, -50%);
+      left: 12px;
+      color: $input-footer;
+    }
+  }
+
+  .email-footer {
+    padding: 10px 5px 10px 37px;
+    width: 100%;
+    background: transparent;
+    border: 1px solid $input-footer;
+    color: $input-footer;
+    font-family: 'RobotoLight', sans-serif;
+  }
+
+  .phone{
+    position: relative;
+    .fas {
+      position: absolute;
+      top: 50%;
+      transform: translate(0, -50%);
+      left: 17px;
+      color: $input-footer;
+    }
+  }
+
+  .phone-footer {
+    padding: 10px 5px 10px 37px;
+    width: 97%;
+    border: 1px solid $white;
+    color: $input-footer;
+    float: right;
+    font-family: 'RobotoLight', sans-serif;
+  }
+
+  .message-support{
+    border: 1px solid $input-footer;
+    color: $input-footer;
+    background: transparent;
+    width: 100%;
+    font-size: 14px;
+    font-family: 'RobotoLight', sans-serif;
+  }
+
+  .wrap-button{
+    justify-content: flex-end;
+    .btn {
+      color: $white;
+      border: 1px solid $white;
+      background: transparent;
+      border-radius: 0;
+      font-size: 20px;
+      font-family: 'RobotoLight', sans-serif;
+    }
+  }
+
+  .social {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .facebook-img {
+    height: 257px;
+  }
+
+  .social-icon {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 17px;
+  }
+
+  .wrapper-inst{
+    padding-left: 12px;
+    .fab {
+      color: $input-footer;
+      padding: 6px 6px;
+      border: 1px solid $border-icon;
+      &:hover{
+        color: lighten($input-footer, 10%);
+      }
+    }
+  }
+
+  .wrapper-vk{
+    padding-left: 12px;
+    .fab {
+      color: $input-footer;
+      padding: 6px 6px;
+      border: 1px solid $border-icon;
+      &:hover{
+        color: lighten($input-footer, 10%);
+      }
+    }
+  }
+
+  .wrapper-face{
+    padding-left: 12px;
+    .fab {
+      color: $input-footer;
+      padding: 6px 9px;
+      border: 1px solid $border-icon;
+      &:hover{
+        color: lighten($input-footer, 10%);
+      }
+    }
+  }
+
 }
