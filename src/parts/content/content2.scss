@@ -92,3 +92,78 @@
     }
   }
 }
+
+@media only screen and (max-width : 1200px) {
+  .home-sect-2{
+    .border p{
+      font-size: 15px!important;
+    }
+  }
+}
+
+@media only screen and (max-width : 992px) {
+  .home-sect-2{
+    .slide{
+      margin-bottom: 10px;
+      width: 99%;
+    }
+    .two{
+      float: right;
+    }
+    .four{
+      float: right;
+    }
+    .pt50 {
+      padding-top: 25px;
+    }
+  }
+}
+
+
+@media only screen and (max-width : 768px) {
+  .home-sect-2{
+    .pt106{
+      padding-top: 60px!important;
+    }
+    .sect-top{
+      p{
+        font-size: 15px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width : 767px) {
+  .home-sect-2{
+    .slide {
+      width: 100%;
+    }
+    .pt64 {
+      padding-top: 40px;
+    }
+    .advantages {
+      padding-bottom: 5px;
+      h1{
+        padding-right: 0;
+        font-size: 20px;
+        padding-bottom: 15px;
+      }
+    }
+    .pt50 {
+      padding-top: 10px;
+    }
+  }
+}
+
+@media only screen and (max-width : 480px) {
+  .home-sect-2{
+    .advantages{
+      h5{
+        font-size: 15px!important;
+      }
+      p{
+        font-size: 13px!important;
+      }
+    }
+  }
+}

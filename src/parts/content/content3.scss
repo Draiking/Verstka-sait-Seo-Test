@@ -3,12 +3,12 @@
 
   .top-sect {
     text-transform: uppercase;
-    font-family: 'Roboto',sans-serif;
-    font-size: 30px;
     padding-top: 37px;
     padding-bottom: 30px;
     text-align: center;
     h1{
+      font-family: 'Roboto',sans-serif;
+      font-size: 30px;
       color: $white;
       margin: 0;
     }
@@ -34,6 +34,42 @@
       font-size: 16px;
       color: $white;
       margin: 0;
+    }
+  }
+}
+
+@media only screen and (max-width : 767px) {
+  .home-sect-3 {
+    .top-sect{
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    .bottom-sect-3{
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+  }
+}
+
+@media only screen and (max-width : 540px) {
+  .home-sect-3{
+    .button-send{
+      background-image: none!important;
+    }
+  }
+}
+
+@media only screen and (max-width : 480px) {
+  .home-sect-3{
+    .top-sect{
+      h1{
+        font-size: 25px;
+      }
+    }
+    .bottom-sect-3{
+      p{
+        font-size: 13px;
+      }
     }
   }
 }
